@@ -1,0 +1,22 @@
+.MenuOffcanvas li {
+    list-style: none;
+    line-height: 2;
+}
+
+.MenuOffcanvas a {
+    text-decoration: none;
+    color: #465c47;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 200ms ease-in-out;
+}
+
+.MenuOffcanvas a:hover {
+    color: #fea295;
+    font-size: 23px;
+}
+
+.MenuOffcanvas .MenuOffcanvas-title {
+    color: #465c47;
+    font-size: 25px;
+}
