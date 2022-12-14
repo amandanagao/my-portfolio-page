@@ -1,0 +1,12 @@
+.MainPage {
+    color: #465c47;
+    font-size: 45px;
+    margin: 30px;
+}
+
+.MainPage .MainPage-name {
+    color: #fea295;
+    text-align: center;
+    font-size: 75px;
+    margin: 30px;
+}
