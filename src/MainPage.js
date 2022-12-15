@@ -1,16 +1,30 @@
 import React from "react";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import profilePhoto from "./Yumi-crop.jpg";
 
 import "./MainPage.css";
 
 export default function MainPage() {
     return (
         <div className="MainPage">
-            Hi! I'm
-            <div className="MainPage-name">Amanda Yumi Nagao</div>
-            and I'm a React Developer <FontAwesomeIcon icon={faStar} />
+            <div className="row">
+                <div className="col-4">
+                    <div className="MainPage-photo">
+                        <img
+                            src={profilePhoto}
+                            alt="profile"
+                            className="img-fluid"
+                        />
+                    </div>
+                </div>
+                <div className="col-8">
+                    Hi! I am
+                    <span className="MainPage-name">Amanda</span>
+                    <br />
+                    <span className="MainPage-role">
+                        I am a React Developer
+                    </span>
+                </div>
+            </div>
         </div>
     );
 }

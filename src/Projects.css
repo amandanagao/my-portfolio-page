@@ -1,0 +1,54 @@
+.Projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.Projects h4 {
+    color: #253126;
+    margin: 10px 0px 20px;
+}
+
+.Projects p {
+    color: #465c47;
+    line-height: 2;
+    margin: 0px 60px;
+}
+
+.Projects img {
+    border-radius: 10px;
+}
+
+.Projects a {
+    text-decoration: none;
+    color: #eff6ea;
+}
+
+.Projects button {
+    background: #465c47;
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+}
+
+.Projects button:hover {
+    background: #fea295;
+}
+
+.Projects .Projects-card {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #d7e7c9;
+    color: #465c47;
+    transition: all 200ms ease-in-out;
+}
+
+.Projects .Projects-card:hover {
+    scale: 1.1;
+}

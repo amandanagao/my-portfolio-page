@@ -4,9 +4,21 @@
     margin: 30px;
 }
 
+.MainPage .row {
+    align-items: center;
+}
+
+.MainPage .MainPage-photo {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .MainPage .MainPage-name {
     color: #fea295;
-    text-align: center;
     font-size: 75px;
     margin: 30px;
+}
+
+.MainPage .MainPage-role {
+    font-size: 30px;
 }
