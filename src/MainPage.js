@@ -1,5 +1,5 @@
 import React from "react";
-import profilePhoto from "./Yumi-crop.jpg";
+import profilePhoto from "./images/Yumi-crop.jpg";
 
 import "./MainPage.css";
 

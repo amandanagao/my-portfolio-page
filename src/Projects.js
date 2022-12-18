@@ -1,5 +1,5 @@
 import React from "react";
-import test from "./Fouet.png";
+import test from "./images/Fouet.png";
 
 import "./Projects.css";
 
