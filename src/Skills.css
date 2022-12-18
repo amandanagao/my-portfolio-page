@@ -1,0 +1,25 @@
+.Skills {
+    padding: 20px;
+}
+
+.Skills h4 {
+    color: #253126;
+    text-align: center;
+    margin: 10px 0px 20px;
+}
+
+.Skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Skills li {
+    color: #465c47;
+    text-align: justify;
+    line-height: 2;
+    margin: 0px 60px;
+}
+
+.Skills .Skills-title {
+    font-weight: 600;
+}
