@@ -9,27 +9,29 @@ export default function MenuOffcanvas() {
         <div className="MenuOffcanvas">
             <Offcanvas.Header closeButton>
                 <Offcanvas.Title className="MenuOffcanvas-title">
-                    Projects
+                    My Portfolio Page
                 </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
                 <ul>
                     <li>
-                        <a
-                            href="https://dashing-speculoos-82148a.netlify.app"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Dictionary App
+                        <a href="/" target="_blank" rel="noreferrer">
+                            About Me
                         </a>
                     </li>
                     <li>
-                        <a
-                            href="https://famous-hotteok-3cf4d5.netlify.app"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Weather App
+                        <a href="/" target="_blank" rel="noreferrer">
+                            Technical Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" target="_blank" rel="noreferrer">
+                            Certifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" target="_blank" rel="noreferrer">
+                            Projects
                         </a>
                     </li>
                 </ul>
