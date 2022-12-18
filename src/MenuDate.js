@@ -14,7 +14,7 @@ export default function MenuDate() {
         "Saturday",
     ];
     const day = days[today.getDay()];
-    const date = ("0" + today.getDay()).slice(-2);
+    const date = ("0" + today.getDate()).slice(-2);
     const month = ("0" + (today.getMonth() + 1)).slice(-2);
     const year = today.getFullYear();
 
