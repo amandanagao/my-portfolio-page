@@ -1,5 +1,6 @@
 import React from "react";
-import test from "./images/Fouet.png";
+import dictionaryApp from "./images/React Dictionary App.png";
+import weatherApp from "./images/React Weather App.png";
 
 import "./Projects.css";
 
@@ -14,8 +15,12 @@ export default function Projects() {
                 Please check them below!
             </p>
             <div className="Projects-card">
-                <img src={test} alt="test" width={150} className="img-fluid" />
-                <p>test test test</p>
+                <img
+                    src={dictionaryApp}
+                    alt="Dictionary App"
+                    width={150}
+                    className="img-fluid"
+                />
                 <button>
                     <a
                         href="https://dashing-speculoos-82148a.netlify.app"
@@ -27,8 +32,12 @@ export default function Projects() {
                 </button>
             </div>
             <div className="Projects-card">
-                <img src={test} alt="test" width={150} className="img-fluid" />
-                <p>test test test</p>
+                <img
+                    src={weatherApp}
+                    alt="Weather App"
+                    width={215}
+                    className="img-fluid"
+                />
                 <button>
                     <a
                         href="https://famous-hotteok-3cf4d5.netlify.app"
