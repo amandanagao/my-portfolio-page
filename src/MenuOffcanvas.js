@@ -34,6 +34,11 @@ export default function MenuOffcanvas() {
                             Projects
                         </a>
                     </li>
+                    <li>
+                        <a href="/" target="_blank" rel="noreferrer">
+                            Contact Me
+                        </a>
+                    </li>
                 </ul>
             </Offcanvas.Body>
         </div>

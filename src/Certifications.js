@@ -15,16 +15,16 @@ export default function Certifications() {
                 Please check the certificates from the SheCodes Workshops below!
             </p>
             <a href={basics} target="_blank" rel="noreferrer">
-                <img src={basics} alt="basics-workshop" width={300} />
+                <img src={basics} alt="basics-workshop" width={250} />
             </a>
             <a href={plus} target="_blank" rel="noreferrer">
-                <img src={plus} alt="plus-workshop" width={300} />
+                <img src={plus} alt="plus-workshop" width={250} />
             </a>
             <a href={react} target="_blank" rel="noreferrer">
-                <img src={react} alt="react-workshop" width={300} />
+                <img src={react} alt="react-workshop" width={250} />
             </a>
             <a href={addOn} target="_blank" rel="noreferrer">
-                <img src={addOn} alt="react-add-on-workshop" width={300} />
+                <img src={addOn} alt="react-add-on-workshop" width={250} />
             </a>
         </div>
     );

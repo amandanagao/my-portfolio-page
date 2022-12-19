@@ -1,0 +1,40 @@
+.ContactMe {
+    background: #d7e7c9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ContactMe h4 {
+    color: #253126;
+    margin: 10px 0px 20px;
+}
+
+.ContactMe p {
+    color: #465c47;
+    text-align: justify;
+    line-height: 2;
+    margin: 10px 60px;
+}
+
+.ContactMe a {
+    font-size: 30px;
+    color: #465c47;
+    margin: 20px;
+}
+
+.ContactMe a:hover {
+    color: #253126;
+}
+
+.ContactMe .ContactMe-contact {
+    font-size: 20px;
+    color: #465c47;
+    margin: 10px;
+}
+
+.ContactMe .ContactMe-location {
+    font-size: 17px;
+    color: #465c47;
+    margin: 20px;
+}

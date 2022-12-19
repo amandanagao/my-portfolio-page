@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Certifications from "./Certifications";
 import Projects from "./Projects";
+import ContactMe from "./ContactMe";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ export default function App() {
                 <Skills />
                 <Certifications />
                 <Projects />
+                <ContactMe />
             </div>
         </div>
     );
