@@ -1,11 +1,11 @@
-import MenuBar from "./components/MenuBar";
-import MainPage from "./components/MainPage";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Certifications from "./components/Certifications";
-import Projects from "./components/Projects";
-import ContactMe from "./components/ContactMe";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+import MenuBar from "./MenuBar";
+import MainPage from "./MainPage";
+import AboutMe from "./AboutMe";
+import Skills from "./Skills";
+import Certifications from "./Certifications";
+import Projects from "./Projects";
+import ContactMe from "./ContactMe";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 import "./css/App.css";
 
