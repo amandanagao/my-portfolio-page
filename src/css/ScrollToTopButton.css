@@ -1,0 +1,43 @@
+.ScrollToTopButton {
+    position: relative;
+}
+.ScrollToTopButton .ScrollToTopButton-icon-position {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+}
+.ScrollToTopButton .ScrollToTopButton-icon-style {
+    background: #fd8d7e;
+    border: 1px solid #fd8d7e;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    animation: movebutton 2s ease-in-out infinite;
+    transition: all 200ms ease-in-out;
+}
+.ScrollToTopButton .ScrollToTopButton-icon-style:hover {
+    animation: none;
+    background: #fff;
+    color: #fd8d7e;
+    border: 1px solid #fd8d7e;
+}
+
+@keyframes movebutton {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(15px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

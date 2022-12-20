@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Certifications from "./Certifications";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 import "./css/App.css";
 
@@ -19,6 +20,7 @@ export default function App() {
                 <Certifications />
                 <Projects />
                 <ContactMe />
+                <ScrollToTopButton />
             </div>
         </div>
     );
