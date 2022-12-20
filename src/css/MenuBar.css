@@ -5,20 +5,13 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.MenuBar button {
-    background: #a7c68b;
-    border: 1px solid #a7c68b;
+.MenuBar a {
+    text-decoration: none;
     color: #465c47;
-    font-size: 22px;
+    font-size: 20px;
     transition: all 150ms ease-in-out;
 }
 
-.MenuBar button:hover {
+.MenuBar a:hover {
     color: #253126;
-}
-
-.MenuBar .MenuBar-local-temperature {
-    color: #465c47;
-    font-weight: bold;
-    font-size: 18px;
 }
