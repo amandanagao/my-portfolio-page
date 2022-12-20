@@ -35,8 +35,6 @@ export default function ContactMe() {
             </a>
             <div className="ContactMe-contact">
                 <FontAwesomeIcon icon={faEnvelope} /> amandanagao@hotmail.com
-                <br />
-                <FontAwesomeIcon icon={faWhatsapp} /> (+351) 939 234 150
             </div>
             <div className="ContactMe-location">
                 <FontAwesomeIcon icon={faLocationDot} /> Funchal, Ilha da
