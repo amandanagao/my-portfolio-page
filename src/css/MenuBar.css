@@ -5,6 +5,11 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+.MenuBar .MenuBar-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .MenuBar a {
     text-decoration: none;
     color: #465c47;
@@ -13,5 +18,6 @@
 }
 
 .MenuBar a:hover {
-    color: #253126;
+    color: #1c261d;
+    text-decoration: underline;
 }

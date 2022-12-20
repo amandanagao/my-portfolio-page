@@ -11,7 +11,7 @@ export default function MenuBar() {
     return (
         <div className="MenuBar">
             <Navbar className="MenuBar-navbar">
-                <Container>
+                <Container className="MenuBar-container">
                     <a href="#AboutMe">About Me</a>
                     <a href="#Skills">Technical Skills</a>
                     <a href="#Certifications">Certifications</a>
