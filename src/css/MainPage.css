@@ -1,6 +1,6 @@
 .MainPage {
     color: #465c47;
-    font-size: 45px;
+    font-size: 50px;
     margin: 30px;
 }
 
@@ -11,12 +11,12 @@
 .MainPage .MainPage-photo {
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .MainPage .MainPage-name {
-    color: #fea295;
-    font-size: 75px;
-    margin: 30px;
+    color: #fd8d7e;
+    text-shadow: 1px 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 .MainPage .MainPage-role {

@@ -45,6 +45,7 @@
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
     background: #d7e7c9;
     color: #465c47;
     transition: all 200ms ease-in-out;

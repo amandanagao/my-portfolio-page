@@ -8,12 +8,15 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-import "./MenuBar.css";
+import "./css/MenuBar.css";
 
 export default function MenuBar() {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
+    const handleClose = () => {
+        setShow(false);
+    };
+
     const handleShow = () => setShow(true);
 
     return (
@@ -23,8 +26,44 @@ export default function MenuBar() {
                     <button onClick={handleShow}>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
-                    <Offcanvas show={show} onHide={handleClose}>
+                    <Offcanvas
+                        className="MenuBar-offcanvas"
+                        show={show}
+                        onHide={handleClose}
+                    >
                         <MenuOffcanvas />
+                        <Offcanvas.Body>
+                            <ul>
+                                <li>
+                                    <a href="#AboutMe" onClick={handleClose}>
+                                        About Me
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Skills" onClick={handleClose}>
+                                        Technical Skills
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#Certifications"
+                                        onClick={handleClose}
+                                    >
+                                        Certifications
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Projects" onClick={handleClose}>
+                                        Projects
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#ContactMe" onClick={handleClose}>
+                                        Contact Me
+                                    </a>
+                                </li>
+                            </ul>
+                        </Offcanvas.Body>
                     </Offcanvas>
                     <MenuDate />
                 </Container>

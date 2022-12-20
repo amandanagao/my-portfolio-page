@@ -7,11 +7,11 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-import "./ContactMe.css";
+import "./css/ContactMe.css";
 
 export default function ContactMe() {
     return (
-        <div className="ContactMe">
+        <div className="ContactMe" id="ContactMe">
             <h4>Contact Me</h4>
             <p>
                 It was a pleasure to present my page to you!

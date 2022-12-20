@@ -5,11 +5,11 @@ import plus from "./images/SheCodes Plus.png";
 import react from "./images/SheCodes React.png";
 import addOn from "./images/SheCodes React Add-On.png";
 
-import "./Certifications.css";
+import "./css/Certifications.css";
 
 export default function Certifications() {
     return (
-        <div className="Certifications">
+        <div className="Certifications" id="Certifications">
             <h4>Certifications</h4>
             <p>
                 Please check the certificates from the SheCodes Workshops below!

@@ -3,6 +3,7 @@
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .ContactMe h4 {

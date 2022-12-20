@@ -2,11 +2,11 @@ import React from "react";
 import dictionaryApp from "./images/React Dictionary App.png";
 import weatherApp from "./images/React Weather App.png";
 
-import "./Projects.css";
+import "./css/Projects.css";
 
 export default function Projects() {
     return (
-        <div className="Projects">
+        <div className="Projects" id="Projects">
             <h4>Projects</h4>
             <p>
                 While doing the SheCodes Workshops, I was able to develop some

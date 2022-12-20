@@ -2,7 +2,7 @@ import React from "react";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
 
-import "./MenuOffcanvas.css";
+import "./css/MenuOffcanvas.css";
 
 export default function MenuOffcanvas() {
     return (
@@ -15,29 +15,19 @@ export default function MenuOffcanvas() {
             <Offcanvas.Body>
                 <ul>
                     <li>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            About Me
-                        </a>
+                        <a href="/#AboutMe">About Me</a>
                     </li>
                     <li>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            Technical Skills
-                        </a>
+                        <a href="/#Skills">Technical Skills</a>
                     </li>
                     <li>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            Certifications
-                        </a>
+                        <a href="/#Certifications">Certifications</a>
                     </li>
                     <li>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            Projects
-                        </a>
+                        <a href="/#Projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            Contact Me
-                        </a>
+                        <a href="/#ContactMe">Contact Me</a>
                     </li>
                 </ul>
             </Offcanvas.Body>

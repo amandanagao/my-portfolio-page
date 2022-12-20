@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./AboutMe.css";
+import "./css/AboutMe.css";
 
 export default function AboutMe() {
     return (
-        <div className="AboutMe">
+        <div className="AboutMe" id="AboutMe">
             <h4>About Me</h4>
             <p>
                 <strong>
