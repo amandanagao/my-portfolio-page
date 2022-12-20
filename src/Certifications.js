@@ -14,18 +14,10 @@ export default function Certifications() {
             <p>
                 Please check the certificates from the SheCodes Workshops below!
             </p>
-            <a href={basics} target="_blank" rel="noreferrer">
-                <img src={basics} alt="basics-workshop" width={250} />
-            </a>
-            <a href={plus} target="_blank" rel="noreferrer">
-                <img src={plus} alt="plus-workshop" width={250} />
-            </a>
-            <a href={react} target="_blank" rel="noreferrer">
-                <img src={react} alt="react-workshop" width={250} />
-            </a>
-            <a href={addOn} target="_blank" rel="noreferrer">
-                <img src={addOn} alt="react-add-on-workshop" width={250} />
-            </a>
+            <img src={basics} alt="shecodes-basics-workshop" />
+            <img src={plus} alt="shecodes-plus-workshop" />
+            <img src={react} alt="shecodes-react-workshop" />
+            <img src={addOn} alt="shecodes-react-add-on-workshop" />
         </div>
     );
 }
