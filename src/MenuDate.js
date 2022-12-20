@@ -20,7 +20,14 @@ export default function MenuDate() {
 
     return (
         <div className="MenuDate">
-            {day}, {date}.{month}.{year}
+            <div className="MenuDate-date">
+                {day}, {date}.{month}.{year}
+            </div>
+            <div className="MenuDate-time">
+                {new Date().toLocaleTimeString("en-US", {
+                    hour12: false,
+                })}
+            </div>
         </div>
     );
 }

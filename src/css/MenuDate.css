@@ -2,5 +2,6 @@
     color: #465c47;
     font-size: 17px;
     margin: 7px;
-    text-align: end;
+    display: flex;
+    justify-content: space-between;
 }

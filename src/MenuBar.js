@@ -10,6 +10,7 @@ import "./css/MenuBar.css";
 export default function MenuBar() {
     return (
         <div className="MenuBar">
+            <MenuDate />
             <Navbar className="MenuBar-navbar">
                 <Container className="MenuBar-container">
                     <a href="#AboutMe">About Me</a>
@@ -19,7 +20,6 @@ export default function MenuBar() {
                     <a href="#ContactMe">Contact Me</a>
                 </Container>
             </Navbar>
-            <MenuDate />
         </div>
     );
 }
