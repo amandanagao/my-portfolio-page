@@ -1,6 +1,6 @@
 .AboutMe {
     background: #d7e7c9;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 10px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -15,5 +15,5 @@
     color: #465c47;
     text-align: justify;
     line-height: 2;
-    margin: 0px 60px;
+    margin: 0px 30px;
 }

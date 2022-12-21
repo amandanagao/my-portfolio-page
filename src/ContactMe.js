@@ -38,6 +38,8 @@ export default function ContactMe() {
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                 </Col>
+            </Row>
+            <Row>
                 <div className="ContactMe-contact">
                     <FontAwesomeIcon icon={faEnvelope} />{" "}
                     amandanagao@hotmail.com

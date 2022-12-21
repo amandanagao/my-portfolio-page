@@ -9,7 +9,7 @@ export default function MainPage() {
     return (
         <div className="MainPage">
             <div className="row">
-                <div className="col-4">
+                <div className="col-5">
                     <div className="MainPage-photo">
                         <img
                             src={profilePhoto}
@@ -18,11 +18,11 @@ export default function MainPage() {
                         />
                     </div>
                 </div>
-                <div className="col-8">
-                    Hi! I am <span className="MainPage-name">Amanda</span>
+                <div className="col-7">
+                    Hi! I'm <span className="MainPage-name">Amanda</span>!
                     <br />
                     <span className="MainPage-role">
-                        I am a React Developer{" "}
+                        I'm a React Developer{" "}
                         <FontAwesomeIcon icon={faReact} spin />
                     </span>
                 </div>
