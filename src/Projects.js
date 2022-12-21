@@ -8,12 +8,12 @@ export default function Projects() {
     return (
         <div className="Projects" id="Projects">
             <h4>Projects</h4>
-            <p>
+            <div className="Projects-text">
                 While doing the SheCodes Workshops, I was able to develop some
                 projects using React.
                 <br />
                 Please check them below!
-            </p>
+            </div>
             <div className="Projects-card">
                 <img
                     src={dictionaryApp}

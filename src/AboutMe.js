@@ -6,7 +6,7 @@ export default function AboutMe() {
     return (
         <div className="AboutMe" id="AboutMe">
             <h4>About Me</h4>
-            <p>
+            <div className="AboutMe-text">
                 <strong>
                     New to coding but excited to learn more and build a career
                     in the IT world.
@@ -35,7 +35,7 @@ export default function AboutMe() {
                 always giving my best to not disappoint anyone. I may be new to
                 this area but I know that with my hardwork and focus, I can
                 achieve anything and deliver results with excellence.
-            </p>
+            </div>
         </div>
     );
 }

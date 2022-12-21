@@ -14,9 +14,9 @@ export default function Certifications() {
     return (
         <div className="Certifications" id="Certifications">
             <h4>Certifications</h4>
-            <p>
+            <div className="Certifications-text">
                 Please check the certificates from the SheCodes Workshops below!
-            </p>
+            </div>
             <Row>
                 <Col>
                     <img src={basics} alt="shecodes-basics-workshop" />

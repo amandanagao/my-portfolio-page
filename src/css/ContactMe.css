@@ -11,7 +11,7 @@
     margin: 10px 0px 20px;
 }
 
-.ContactMe p {
+.ContactMe .ContactMe-text {
     color: #465c47;
     line-height: 2;
     margin: 10px 30px;
@@ -28,13 +28,13 @@
 }
 
 .ContactMe .ContactMe-contact {
-    font-size: 20px;
+    font-size: 18px;
     color: #465c47;
     margin: 10px;
 }
 
 .ContactMe .ContactMe-location {
-    font-size: 17px;
+    font-size: 15px;
     color: #465c47;
-    margin: 15px;
+    margin: 10px;
 }

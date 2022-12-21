@@ -1,6 +1,6 @@
 .Certifications {
     background: #d7e7c9;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
@@ -11,14 +11,13 @@
     margin: 10px 0px 20px;
 }
 
-.Certifications p {
+.Certifications .Certifications-text {
     color: #465c47;
     line-height: 2;
-    margin: 0px 60px;
 }
 
 .Certifications img {
-    margin: 10px;
+    margin: 5px;
     border: 5px solid #fff;
     border-radius: 5px;
 }

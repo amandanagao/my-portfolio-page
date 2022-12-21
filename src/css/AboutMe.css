@@ -11,7 +11,7 @@
     margin: 10px 0px 20px;
 }
 
-.AboutMe p {
+.AboutMe .AboutMe-text {
     color: #465c47;
     text-align: justify;
     line-height: 2;

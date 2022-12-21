@@ -1,5 +1,5 @@
 .Skills {
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .Skills h4 {
@@ -10,16 +10,13 @@
 
 .Skills ul {
     list-style: none;
-    padding: 0;
     display: table;
     margin: 0 auto;
 }
 
 .Skills li {
     color: #465c47;
-    text-align: justify;
     line-height: 2;
-    margin: 0px 60px;
 }
 
 .Skills .Skills-title {

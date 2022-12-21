@@ -15,12 +15,12 @@ export default function ContactMe() {
     return (
         <div className="ContactMe" id="ContactMe">
             <h4>Contact Me</h4>
-            <p>
+            <div className="ContactMe-text">
                 It was a pleasure to present my page to you!
                 <br />
                 If you have any questions or would like to get in touch, please
                 don't hesitate to contact me!
-            </p>
+            </div>
             <Row>
                 <Col>
                     <a
