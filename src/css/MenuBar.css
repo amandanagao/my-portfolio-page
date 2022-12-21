@@ -8,6 +8,7 @@
 .MenuBar .MenuBar-container {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .MenuBar a {
