@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.MainPage .MainPage-text {
+    margin: 5px;
+}
+
 .MainPage .MainPage-photo {
     overflow: hidden;
     border-radius: 50%;

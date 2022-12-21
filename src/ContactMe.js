@@ -6,6 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -21,30 +22,32 @@ export default function ContactMe() {
                 If you have any questions or would like to get in touch, please
                 don't hesitate to contact me!
             </div>
-            <Row>
-                <Col>
-                    <a
-                        href="https://www.linkedin.com/in/amanda-yumi-nagao"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                    </a>
-                    <a
-                        href="https://github.com/amandanagao"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                </Col>
-            </Row>
-            <Row>
-                <div className="ContactMe-contact">
-                    <FontAwesomeIcon icon={faEnvelope} />{" "}
-                    amandanagao@hotmail.com
-                </div>
-            </Row>
+            <Container>
+                <Row>
+                    <Col>
+                        <a
+                            href="https://www.linkedin.com/in/amanda-yumi-nagao"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+                        <a
+                            href="https://github.com/amandanagao"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                    </Col>
+                </Row>
+                <Row>
+                    <div className="ContactMe-contact">
+                        <FontAwesomeIcon icon={faEnvelope} />{" "}
+                        amandanagao@hotmail.com
+                    </div>
+                </Row>
+            </Container>
             <div className="ContactMe-location">
                 <FontAwesomeIcon icon={faLocationDot} /> Funchal, Ilha da
                 Madeira, Portugal
