@@ -7,20 +7,27 @@ import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import ScrollToTopButton from "./ScrollToTopButton";
 
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 import "./css/App.css";
 
 export default function App() {
     return (
         <div className="App">
             <div className="container">
-                <MenuBar />
-                <MainPage />
-                <AboutMe />
-                <Skills />
-                <Certifications />
-                <Projects />
-                <ContactMe />
-                <ScrollToTopButton />
+                <Row>
+                    <Col>
+                        <MenuBar />
+                        <MainPage />
+                        <AboutMe />
+                        <Skills />
+                        <Certifications />
+                        <Projects />
+                        <ContactMe />
+                        <ScrollToTopButton />
+                    </Col>
+                </Row>
             </div>
         </div>
     );
