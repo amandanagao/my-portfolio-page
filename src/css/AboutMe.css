@@ -1,18 +1,20 @@
 .AboutMe {
-    background: #d7e7c9;
+    background: #1F2937;
     padding: 20px 10px;
     border-radius: 10px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .AboutMe h4 {
-    color: #253126;
+    color: #F9FAF8;
     text-align: center;
     margin: 10px 0px 20px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .AboutMe .AboutMe-text {
-    color: #465c47;
+    color: #E5E7EB;
     text-align: justify;
     line-height: 2;
     margin: 0px 30px;

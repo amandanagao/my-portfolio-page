@@ -3,9 +3,11 @@
 }
 
 .Skills h4 {
-    color: #253126;
+    color: #1F2937;
     text-align: center;
     margin: 10px 0px 20px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .Skills ul {
@@ -15,7 +17,7 @@
 }
 
 .Skills li {
-    color: #465c47;
+    color: #1F2937;
     line-height: 2;
 }
 

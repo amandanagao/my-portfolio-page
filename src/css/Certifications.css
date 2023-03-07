@@ -1,5 +1,5 @@
 .Certifications {
-    background: #d7e7c9;
+    background: #1F2937;
     padding: 20px 10px;
     border-radius: 10px;
     text-align: center;
@@ -7,12 +7,14 @@
 }
 
 .Certifications h4 {
-    color: #253126;
+    color: #F9FAF8;
     margin: 10px 0px 20px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .Certifications .Certifications-text {
-    color: #465c47;
+    color: #E5E7EB;
     line-height: 2;
     margin: 10px 0px;
 }

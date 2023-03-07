@@ -4,12 +4,14 @@
 }
 
 .Projects h4 {
-    color: #253126;
+    color: #1F2937;
     margin: 10px 0px 20px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .Projects .Projects-text {
-    color: #465c47;
+    color: #1F2937;
     line-height: 2;
     margin: 10px;
 }
@@ -22,11 +24,11 @@
 
 .Projects a {
     text-decoration: none;
-    color: #eff6ea;
+    color: #1F2937;
 }
 
 .Projects button {
-    background: #465c47;
+    background: #E5E7EB;
     margin: 5px 0px 10px;
     padding: 8px;
     border: none;
@@ -35,7 +37,7 @@
 }
 
 .Projects button:hover {
-    background: #fea295;
+    background: #fa7c6b;
 }
 
 .Projects .Projects-card {
@@ -47,8 +49,8 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
-    background: #d7e7c9;
-    color: #465c47;
+    background: #1F2937;
+    color: #E5E7EB;
     transition: all 200ms ease-in-out;
 }
 

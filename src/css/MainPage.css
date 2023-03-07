@@ -1,5 +1,5 @@
 .MainPage {
-    color: #465c47;
+    color: #1F2937;
     font-size: 45px;
     margin: 30px 10px;
 }
@@ -19,7 +19,7 @@
 }
 
 .MainPage .MainPage-name {
-    color: #fd8d7e;
+    color: #fa7c6b;
     text-shadow: 1px 5px 7px rgba(0, 0, 0, 0.2);
 }
 
