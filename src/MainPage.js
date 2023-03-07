@@ -29,7 +29,7 @@ export default function MainPage() {
                             <span className="MainPage-name">Amanda</span>!
                             <br />
                             <span className="MainPage-role">
-                                I'm a React Developer{" "}
+                                I'm a Junior Frontend Developer{" "}
                                 <FontAwesomeIcon icon={faReact} spin />
                             </span>
                         </div>
