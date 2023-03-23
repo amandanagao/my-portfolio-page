@@ -8,8 +8,8 @@
     z-index: 20;
 }
 .ScrollToTopButton .ScrollToTopButton-icon-style {
-    background: #fd8d7e;
-    border: 1px solid #fd8d7e;
+    background: #f72509;
+    border: 1px solid #f72509;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -20,8 +20,8 @@
 .ScrollToTopButton .ScrollToTopButton-icon-style:hover {
     animation: none;
     background: #fff;
-    color: #fd8d7e;
-    border: 1px solid #fd8d7e;
+    color: #f72509;
+    border: 1px solid #f72509;
 }
 
 @keyframes movebutton {

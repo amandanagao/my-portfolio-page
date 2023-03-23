@@ -14,11 +14,45 @@
     list-style: none;
     display: table;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .Skills li {
     color: #1F2937;
     line-height: 2;
+}
+
+.Skills a {
+    text-decoration: none;
+    color: #161414;
+}
+
+.Skills .Skills-icons-description {
+    margin-right: 10px;
+}
+
+.Skills .Skills-icon-html {
+    color: #D84924;
+}
+
+.Skills .Skills-icon-css {
+    color: #2449D8;
+}
+
+.Skills .Skills-icon-javascript {
+    color: #EAD41C;
+}
+
+.Skills .Skills-icon-react {
+    color: #77D4F2;
+}
+
+.Skills .Skills-icon-bootstrap {
+    color: #8412F2;
+}
+
+.Skills .Skills-icon-github {
+    color: #161414;
 }
 
 .Skills .Skills-title {

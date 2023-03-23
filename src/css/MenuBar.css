@@ -1,5 +1,5 @@
 .MenuBar .MenuBar-navbar {
-    background: #1F2937;
+    background: #c5c5c5;
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -9,17 +9,16 @@
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .MenuBar a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #1F2937;
     font-size: 20px;
-    transition: all 150ms ease-in-out;
 }
 
 .MenuBar a:hover {
-    color: #fa7c6b;
-    text-decoration: underline;
+    color: #f72509;
+    font-weight: 600;
 }

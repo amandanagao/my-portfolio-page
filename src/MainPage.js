@@ -1,5 +1,7 @@
 import React from "react";
+
 import profilePhoto from "./images/Yumi-crop.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 
