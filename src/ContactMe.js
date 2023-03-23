@@ -29,6 +29,7 @@ export default function ContactMe() {
                             href="https://www.linkedin.com/in/amanda-yumi-nagao"
                             target="_blank"
                             rel="noreferrer"
+                            className="ContactMe-icon-linkedin"
                         >
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
@@ -36,6 +37,7 @@ export default function ContactMe() {
                             href="https://github.com/amandanagao"
                             target="_blank"
                             rel="noreferrer"
+                            className="ContactMe-icon-github"
                         >
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
@@ -49,8 +51,7 @@ export default function ContactMe() {
                 </Row>
             </Container>
             <div className="ContactMe-location">
-                <FontAwesomeIcon icon={faLocationDot} /> Funchal, Ilha da
-                Madeira, Portugal
+                <FontAwesomeIcon icon={faLocationDot} /> Funchal, Ilha da Madeira, Portugal
             </div>
         </div>
     );
