@@ -4,6 +4,7 @@ import basics from "./images/SheCodes Basics.png";
 import plus from "./images/SheCodes Plus.png";
 import react from "./images/SheCodes React.png";
 import addOn from "./images/SheCodes React Add-On.png";
+import brainnestFDCourse from "./images/Brainnest FD Course.jpg";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,20 +16,23 @@ export default function Certifications() {
         <div className="Certifications" id="Certifications">
             <h4>Certifications</h4>
             <div className="Certifications-text">
-                Please check the certificates from the SheCodes Workshops below!
+                Please check out my certificates below!
             </div>
             <Row>
                 <Col>
-                    <img src={basics} alt="shecodes-basics-workshop" />
+                    <img src={basics} alt="SheCodes Basics Workshop Certificate" />
                 </Col>
                 <Col>
-                    <img src={plus} alt="shecodes-plus-workshop" />
+                    <img src={plus} alt="SheCodes Plus Workshop Certificate" />
                 </Col>
                 <Col>
-                    <img src={react} alt="shecodes-react-workshop" />
+                    <img src={react} alt="SheCodes React Workshop Certificate" />
                 </Col>
                 <Col>
-                    <img src={addOn} alt="shecodes-react-add-on-workshop" />
+                    <img src={addOn} alt="SheCodes React Add-On Workshop Certificate" />
+                </Col>
+                <Col>
+                    <img src={brainnestFDCourse} alt="Brainnest Frontend Development Industry Training Certificate" />
                 </Col>
             </Row>
         </div>

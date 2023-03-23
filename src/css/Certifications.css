@@ -20,6 +20,7 @@
 }
 
 .Certifications img {
+    max-width: 270px;
     margin: 5px;
     border: 2px solid #1F2937;
     border-radius: 5px;
