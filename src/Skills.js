@@ -17,17 +17,19 @@ export default function Skills() {
             <section className="Skills-text">
                 <ul>
                     <li>
-                        <div className="Skills-title">
-                            Programming languages:
-                        </div>
-                        <span class="Skills-icons-description">
-                            <FontAwesomeIcon icon={faJs} className="Skills-icon-javascript" title="JavaScript"/> JavaScript,
-                        </span>
                         <span class="Skills-icons-description">
                             <FontAwesomeIcon icon={faHtml5} className="Skills-icon-html" title="HTML5"/> HTML5,
                         </span>
                         <span class="Skills-icons-description">
                             <FontAwesomeIcon icon={faCss3Alt} className="Skills-icon-css" title="CSS3"/> CSS3
+                        </span>
+                    </li>
+                    <li>
+                        <div className="Skills-title">
+                            Programming languages:
+                        </div>
+                        <span class="Skills-icons-description">
+                            <FontAwesomeIcon icon={faJs} className="Skills-icon-javascript" title="JavaScript"/> JavaScript
                         </span>
                     </li>
                     <li>
