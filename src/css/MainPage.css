@@ -1,29 +1,23 @@
 .MainPage {
-    color: #1F2937;
-    font-size: 45px;
-    margin: 30px 10px;
-}
-
-.MainPage .row {
-    align-items: center;
-}
-
-.MainPage .MainPage-text {
-    margin: 5px;
-}
-
-.MainPage .MainPage-photo {
-    overflow: hidden;
-    border-radius: 50%;
-    border: 1px solid #1F2937;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    color: #443F43;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    margin: 22% 7%;
+    width: fit-content;
 }
 
 .MainPage .MainPage-name {
-    color: #f72509;
-    text-shadow: 1px 5px 7px rgba(0, 0, 0, 0.2);
+    font-size: 200%;
+    color: #DA5663;
+    text-shadow: 
+        4px 4px 0px #F499A1,
+        8px 8px 0px #EFBBAD,
+        12px 12px 0px #EFDCD8;
 }
 
 .MainPage .MainPage-role {
-    font-size: 30px;
+    font-size: 70%;
+    color: #959595;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }

@@ -1,6 +1,11 @@
 import React from "react";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
@@ -13,44 +18,28 @@ import "./css/Skills.css";
 export default function Skills() {
     return (
         <div className="Skills" id="Skills">
-            <h4>Technical Skills</h4>
-            <section className="Skills-text">
-                <ul>
-                    <li>
-                        <span class="Skills-icons-description">
-                            <FontAwesomeIcon icon={faHtml5} className="Skills-icon-html" title="HTML5"/> HTML5,
-                        </span>
-                        <span class="Skills-icons-description">
-                            <FontAwesomeIcon icon={faCss3Alt} className="Skills-icon-css" title="CSS3"/> CSS3
-                        </span>
-                    </li>
-                    <li>
-                        <div className="Skills-title">
-                            Programming languages:
-                        </div>
-                        <span class="Skills-icons-description">
-                            <FontAwesomeIcon icon={faJs} className="Skills-icon-javascript" title="JavaScript"/> JavaScript
-                        </span>
-                    </li>
-                    <li>
-                        <div className="Skills-title">
-                            Frameworks & Libraries:
-                        </div>
-                        <span class="Skills-icons-description">
-                            <FontAwesomeIcon icon={faReact} className="Skills-icon-react" title="React"/> React,
-                        </span>
-                        <span class="Skills-icons-description">
-                            <FontAwesomeIcon icon={faBootstrap} className="Skills-icon-bootstrap" title="Bootstrap"/> Bootstrap 5
-                        </span>
-                        
-                    </li>
-                    <li>
-                        <span className="Skills-title">Editors & Operating Systems:</span> VS Code, CodeSandBox
-                    </li>
-                    <li>
-                        <span className="Skills-title">
-                            Versioning Tools:
-                        </span> {" "}
+            <h4>
+                My Skills{" "}
+                <FontAwesomeIcon icon={faPuzzlePiece} />
+            </h4>
+            <Container fluid>
+                <Row className="Skills-text" xs="auto">
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faHtml5} className="Skills-icon-html" title="HTML5"/> HTML
+                    </Col>
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faCss3Alt} className="Skills-icon-css" title="CSS3"/> CSS
+                    </Col>
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faJs} className="Skills-icon-javascript" title="JavaScript"/> JavaScript
+                    </Col>
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faReact} className="Skills-icon-react" title="React"/> React
+                    </Col>
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faBootstrap} className="Skills-icon-bootstrap" title="Bootstrap"/> Bootstrap 5
+                    </Col>
+                    <Col className="Skills-title">
                         <a
                             href="https://github.com/amandanagao"
                             target="_blank"
@@ -58,15 +47,11 @@ export default function Skills() {
                         >
                             <FontAwesomeIcon icon={faGithub} className="Skills-icon-github" title="GitHub"/> GitHub
                         </a>
-                    </li>
-                    <li>
-                        <span className="Skills-title">Others:</span> APIs
-                    </li>
-                    <li>
-                        <span className="Skills-title">Miscellaneous:</span> MS Office
-                    </li>
-                </ul>
-            </section>
+                    </Col>
+                    <Col className="Skills-title">VS Code</Col>
+                    <Col className="Skills-title">APIs</Col>
+                </Row>
+            </Container>
         </div>
     );
 }

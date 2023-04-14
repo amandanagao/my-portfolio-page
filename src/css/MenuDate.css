@@ -1,7 +1,7 @@
 .MenuDate {
-    color: #1F2937;
+    color: #FFFFFF;
     font-size: 17px;
-    margin: 7px;
     display: flex;
     justify-content: space-between;
+    margin: 15px 5px;
 }
