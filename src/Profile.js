@@ -22,6 +22,7 @@ export default function Profile() {
                         <span className="Profile-name-first-letter">N</span>agao
                     </div>
                     <div className="Profile-role">Frontend Developer</div>
+                    <a href="https://amandanagao.github.io/Resume/" target="_blank" rel="noreferrer" className="Profile-resume">Resume</a>
                 </section>
             </main>
         </div>

@@ -23,11 +23,11 @@ export default function MenuDate() {
             <div className="MenuDate-date">
                 {day}, {date}.{month}.{year}
             </div>
-            <div className="MenuDate-time">
+            {/* <div className="MenuDate-time">
                 {new Date().toLocaleTimeString("en-US", {
                     hour12: false,
                 })}
-            </div>
+            </div> */}
         </div>
     );
 }

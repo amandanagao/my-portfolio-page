@@ -30,6 +30,22 @@
 }
 
 .Profile .Profile-role {
-    font-size: 50%;
+    font-size: 25px;
     opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.Profile .Profile-resume {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+    color: #FFFFFF ;
+    background-color: #DA5663;
+    border: 1px solid #DA5663;
+    border-radius: 5px;
+}
+
+.Profile .Profile-resume:hover {
+    color:#DA5663 ;
+    background-color: #FFFFFF;
 }
