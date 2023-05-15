@@ -1,7 +1,7 @@
 # My Portfolio Page
 
 ⭐ Welcome to my Portfolio Page!
-Please check it out: [My Portfolio Page](https://gilded-wisp-1662c6.netlify.app).
+Please check it out: [My Portfolio Page](https://amandanagao.netlify.app).
 
 ## Project built with:
 
