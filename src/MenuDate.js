@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./css/MenuDate.css";
 
 export default function MenuDate() {
