@@ -1,26 +1,26 @@
 .ContactMe {
     padding: 20px 0;
     text-align: center;
-    background-image: url(/src/images/scott-webb-_JpQfgcCa2o-unsplash.jpg);
+    background-image: url(/src/images/alexander-grey-62vi3TG5EDg-unsplash.jpg);
+    background-size: cover;
+    color: #443F43;
 }
 
 .ContactMe .ContactMe-container {
     width: fit-content;
     padding: 10px;
-    background-color: rgb(225, 221, 220, 0.4);
+    background-color: rgb(225, 221, 220, 0.6);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(118, 117, 116, 0.4);
 }
 
 .ContactMe h4 {
-    color: #443F43;
     margin: 30px 0px;
     font-size: 30px;
     font-weight: 900;
 }
 
 .ContactMe .ContactMe-text {
-    color: #797377;
     line-height: 2.5;
     margin: 10px;
 }
@@ -35,22 +35,28 @@
     color: #0B5FBB;
 }
 
+.ContactMe .ContactMe-icon-linkedin:hover {
+    color: #ee9a89;
+}
+
 .ContactMe .ContactMe-icon-github {
     color: #161414;
 }
 
+.ContactMe .ContactMe-icon-github:hover {
+    color: #ee9a89;
+}
+
 .ContactMe .ContactMe-icon {
-    color: #DA5663;
+    color: #EC7F69;
 }
 
 .ContactMe .ContactMe-contact {
     font-size: 18px;
-    color: #797377;
     margin: 10px;
 }
 
 .ContactMe .ContactMe-location {
     font-size: 15px;
-    color: #797377;
     margin: 10px;
 }

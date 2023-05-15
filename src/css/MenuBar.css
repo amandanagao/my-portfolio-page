@@ -1,29 +1,35 @@
-.MenuBar .MenuBar-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 5% 0;
+.MenuBar .MenuBar-navbar {
+    padding: 0;
+    background-color: #FFFFFF;
+    justify-content: space-between;
 }
 
-.MenuBar a {
+.MenuBar .MenuBar-brand {
+    font-family: 'Kalam', cursive;
     font-size: 30px;
-    text-decoration: none;
-    color: #FFFFFF;
+    margin: 0;
+    padding: 5px 15px;
+    color: #918c9e;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
-.MenuBar a:hover {
-    color: #EFDCD8;
+.MenuBar .MenuBar-brand-first-letter {
+    color: #e6ada2;
+    text-shadow: 
+    1px 1px 0px #ecc5bb,
+    3px 3px 0px #EFDCD8;
 }
 
-.MenuBar .MenuBar-icons {
-    display: flex;
-    gap: 25px;
+.MenuBar .MenuBar-link {
+    font-size: 16px;
+    color: #eec2bb;
+    text-align: center;
 }
 
-.MenuBar .MenuBar-icon-linkedin:hover {
-    color: #0B5FBB;
+.MenuBar .MenuBar-link.active {
+    color: #eec2bb;
 }
 
-.MenuBar .MenuBar-icon-github:hover {
-    color: #161414;
+.MenuBar .MenuBar-link:hover {
+    color: #ee9a89;
 }

@@ -1,0 +1,15 @@
+.FooterPage {
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    padding: 10px;
+    color: #918c9e;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.FooterPage .FooterPage-first-letter {
+    color: #e6ada2;
+    text-shadow: 
+    1px 1px 0px #ecc5bb,
+    3px 3px 0px #EFDCD8;
+}

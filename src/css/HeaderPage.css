@@ -1,0 +1,40 @@
+.HeaderPage {
+    color: #443F43;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    text-align: center;
+    padding: 2%;
+    background-image: url(/src/images/alexander-grey-62vi3TG5EDg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.HeaderPage .HeaderPage-text {
+    animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.HeaderPage .HeaderPage-name {
+    font-size: 150%;
+    color: #F7EDEC;
+    text-shadow: 
+    1px 1px 5px rgba(0,0,0,0.3), 
+    2px 2px 0px #f39d87, 
+    3px 3px 0px #db9282, 
+    5px 5px 0px #e3ada2;
+}
+        
+@keyframes text-clip {
+    from {
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+.HeaderPage .HeaderPage-role {
+    font-size: 60%;
+    color: #686868;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}

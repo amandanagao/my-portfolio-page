@@ -1,14 +1,16 @@
-import MenuDate from "./MenuDate";
+// import MenuDate from "./MenuDate";
+import HeaderPage from "./HeaderPage";
 import Profile from "./Profile";
-import MainPage from "./MainPage";
 import Skills from "./Skills";
 import MenuBar from "./MenuBar";
 import AboutMe from "./AboutMe";
 import Certifications from "./Certifications";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
+import FooterPage from "./FooterPage";
 import ScrollToTopButton from "./ScrollToTopButton";
 
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -17,36 +19,37 @@ import "./css/App.css";
 export default function App() {
     return (
         <div className="App">
-            <Row>
-                <Col xs={12} md={5} lg={4} xl={3} className="App-sidebar">
-                    <Row  className="App-sidebar-date">
-                        <MenuDate />
-                    </Row>
-                    <Row className="App-sidebar-profile">
-                        <Profile />
-                    </Row>
-                    <Row>
-                        <MenuBar />
-                    </Row>
-                </Col>
-                <Col xs={12} md={7} lg={8} xl={9} className="App-content">
-                    <Row className="App-content-main">
-                        <MainPage />
-                    </Row>
-                    <Row xs={1} md={1} lg={1} xl={2}>
+            <MenuBar />
+            {/* <MenuDate /> */}
+            <HeaderPage />
+            <section className="App-content-first-section">
+                <Container>
+                    <Row className="justify-content-md-center">
+                        <Col xs lg="4">
+                            <Profile />
+                        </Col>
                         <Col>
                             <AboutMe />
                         </Col>
-                        <Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="App-content-second-section">
+                <Container>
+                    <Row className="justify-content-md-center">
+                        <Col xs="12" lg="7">
+                            <Certifications />
+                        </Col>
+                        <Col xs lg="5">
                             <Skills />
                         </Col>
                     </Row>
-                    <Certifications />
-                    <Projects />
-                    <ContactMe />
-                    <ScrollToTopButton />
-                </Col>
-            </Row>
+                </Container>
+            </section>
+            <Projects />
+            <ContactMe />
+            <FooterPage />
+            <ScrollToTopButton />  
         </div>
     );
 }

@@ -5,20 +5,6 @@
     padding: 0;
 }
 
-.App .App-sidebar {
-    background-color: #6F6D70;
-    color: #FFFFFF;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
-}
-
-.App .App-sidebar-date, .App-sidebar-profile {
-    background-color: #443F43;
-}
-
-.App .App-content {
-    background-color: #F3F3F3;
-}
-
-.App .App-content-main {
-    background-image: url(/src/images/scott-webb-_JpQfgcCa2o-unsplash.jpg);
+.App .App-content-second-section {
+    background-color: #F6EDEE;
 }

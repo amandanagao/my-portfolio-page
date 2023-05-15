@@ -10,20 +10,8 @@
     font-weight: 900;
 }
 
-.Certifications .Certifications-text {
-    color: #443F43;
-    line-height: 2.5;
-}
-
-.Certifications .Certifications-certificate {
-    position: relative;
-    width: 350px;
-    margin: 5%;
-}
-
 .Certifications .Certifications-certificate img {
-    display: block;
-    width: 100%;
+    width: 80%;
     border: 1px solid #443F43;
     border-radius: 5px;
 }
@@ -32,8 +20,8 @@
     border-radius: 5px;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 75px;
+    width: 80%;
     height: 100%;
     background-color: rgba(0,0,0,0.7);
     color: #FFFFFF;

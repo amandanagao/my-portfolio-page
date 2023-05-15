@@ -1,51 +1,43 @@
 .Profile {
-    font-size: 35px;
-    text-align: center;
-    margin: 10% auto;
+    font-size: 30px;
 }
 
-.Profile .Profile-photo {
-    max-width: 60%;
-    overflow: hidden;
-    border-radius: 50%;
-    box-shadow: 
-        10px 5px 5px rgba(0,0,0,0.3),
-        20px -15px 0 #DA5663,
-        27px 12px 0 #EFBBAD,
-        -20px 10px 0 #F499A1;
-    margin: 10px auto;
+.Profile .Profile-container {
+    width: 300px;
+    height: 340px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    margin: 10vh auto 0;
+    background-image: url(/src/images/Yumi-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
 
-.Profile .Profile-name {
-    font-family: 'Kalam', cursive;
-    font-size: 50px;
-    color: #FFFFFF;
-}
-
-.Profile .Profile-name-first-letter {
-    color: #DA5663;
-    text-shadow: 1px 1px 0px #F499A1,
-    2px 2px 0px #EFBBAD,
-    3px 3px 0px #EFDCD8;
-}
-
-.Profile .Profile-role {
-    font-size: 25px;
-    opacity: 0.7;
-    margin-bottom: 10px;
-}
-
-.Profile .Profile-resume {
-    font-size: 25px;
-    text-decoration: none;
-    padding: 5px;
-    color: #FFFFFF ;
-    background-color: #DA5663;
-    border: 1px solid #DA5663;
-    border-radius: 5px;
-}
-
-.Profile .Profile-resume:hover {
-    color:#DA5663 ;
+.Profile .Profile-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
     background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.Profile .Profile-icon-linkedin {
+    color: #0B5FBB;
+}
+
+.Profile .Profile-icon-linkedin:hover {
+    color: #ee9a89;
+}
+
+.Profile .Profile-icon-github {
+    color: #161414;
+}
+
+.Profile .Profile-icon-github:hover {
+    color: #ee9a89;
 }

@@ -1,10 +1,10 @@
 .AboutMe {
     margin: 40px auto;
+    text-align: center;
 }
 
 .AboutMe h4 {
     color: #443F43;
-    text-align: center;
     margin: 30px 0px;
     font-size: 30px;
     font-weight: 900;
@@ -13,13 +13,29 @@
 .AboutMe .AboutMe-text {
     color: #443F43;
     text-align: justify;
-    line-height: 2.5;
-    margin: 0 12%;
+    line-height: 2;
     font-size: 17px;
+    margin-bottom: 20px;
 }
 
 .AboutMe .AboutMe-text-name {
-    color: #DA5663;
+    color: #ec7f69;
     font-weight: 600;
     font-size: 20px;
+}
+
+.AboutMe .AboutMe-resume {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    color: #FFFFFF ;
+    background-color: #ec7f69;
+    border: 1px solid #ec7f69;
+    border-radius: 5px;
+}
+
+.AboutMe .AboutMe-resume:hover {
+    color:#ec7f69;
+    background-color: #FFFFFF;
 }

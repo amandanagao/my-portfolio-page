@@ -15,58 +15,35 @@
     margin: 10px;
 }
 
-.Projects .Projects-card {
-    position: relative;
-    width: 350px;
-    margin: 5%;
+.Projects .Projects-row {
+    margin: 0;
 }
 
-.Projects .Projects-card img {
-    display: block;
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid #443F43;
+.Projects .Projects-nav {
+    margin: 10px auto;
 }
 
-.Projects .Projects-card-overlay {
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.7);
-    color: #FFFFFF;
+.Projects .Projects-nav-item a {
+    color: #ee9a89;
+}
+
+.Projects .Projects-nav-item .active {
+    background-color: #EC7F69;
+}
+
+.Projects .Projects-tab-caption {
+    background-color: #F6EDEE;
+    border: 1px solid #DEE2E6;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+.Projects .Projects-tab-description {
+    padding: 10px;
+    font-size: 30px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 10px;
     justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.Projects .Projects-card-overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-
-.Projects .Projects-card-overlay:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.Projects .Projects-card-overlay:hover > * {
-    transform: translateY(0);
-}
-
-.Projects .Projects-card-overlay-title {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.Projects .Projects-card-overlay-description {
-    margin: 5px;
-    font-size: 25px;
 }
 
 .Projects .Projects-icon-html {
@@ -89,7 +66,77 @@
     color: #8412F2;
 }
 
-.Projects .Projects-card-overlay a {
+.Projects .Projects-tab-links {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Projects .Projects-tab-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #443F43;
+    background-color: #FFFFFF;
+    border: 1px solid #443F43;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+}
+
+.Projects .Projects-tab-links a:hover {
+    color: #FFFFFF;
+    background-color: #443F43;
+    border: 1px solid #443F43;
+}
+
+.Projects .Projects-tab img {
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid #DEE2E6;
+    border-top: none;
+}
+
+/* .Projects .Projects-tab-overlay {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.Projects .Projects-tab-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.Projects .Projects-tab-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.Projects .Projects-tab-overlay:hover > * {
+    transform: translateY(0);
+}
+
+.Projects .Projects-tab-overlay-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+*/
+
+/* .Projects .Projects-card-overlay a {
     color: #443F43;
     font-size: 25px;
     background-color: #FFFFFF;
@@ -108,11 +155,6 @@
     color: #FFFFFF;
     background-color: #443F43;
     border: 1px solid #FFFFFF;
-}
-
-/* .Projects a {
-    text-decoration: none;
-    color: #f6f5f5;
 } */
 
 /* .Projects button {
