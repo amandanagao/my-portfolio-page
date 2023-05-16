@@ -46,7 +46,9 @@ export default function App() {
                     </Row>
                 </Container>
             </section>
-            <Projects />
+            <section className="App-content-third-section">
+                <Projects />
+            </section>
             <ContactMe />
             <FooterPage />
             <ScrollToTopButton />  

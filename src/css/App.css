@@ -6,6 +6,6 @@
     overflow: hidden;
 }
 
-.App .App-content-second-section {
-    background-color: #F6EDEE;
+.App > section {
+    background: linear-gradient(90deg, rgb(246, 237, 238) 0%, rgb(255, 255, 255) 70%);
 }
