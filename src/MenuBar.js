@@ -6,7 +6,7 @@ import "./css/MenuBar.css";
 export default function MenuBar() {
     return (
         <div className="MenuBar">
-            <Navbar defaultExpanded collapseOnSelect expand="lg" className="MenuBar-navbar">
+            <Navbar collapseOnSelect expand="lg" className="MenuBar-navbar">
                     <Navbar.Brand className="MenuBar-brand" href="#home">
                         <span className="MenuBar-brand-first-letter">A</span>manda{" "}
                         <span className="MenuBar-brand-first-letter">N</span>agao

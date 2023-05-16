@@ -8,10 +8,11 @@
 
 .ContactMe .ContactMe-container {
     width: fit-content;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(225, 221, 220, 0.6);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(118, 117, 116, 0.4);
+    font-size: 15px;
 }
 
 .ContactMe h4 {
@@ -22,7 +23,7 @@
 
 .ContactMe .ContactMe-text {
     line-height: 2.5;
-    margin: 10px;
+    margin: 0px 10px;
 }
 
 .ContactMe a {
@@ -52,11 +53,15 @@
 }
 
 .ContactMe .ContactMe-contact {
-    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.ContactMe .ContactMe-phone {
+    font-weight: 600;
     margin: 10px;
 }
 
 .ContactMe .ContactMe-location {
-    font-size: 15px;
     margin: 10px;
 }

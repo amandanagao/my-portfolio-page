@@ -3,6 +3,7 @@ import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import Container from "react-bootstrap/Container";
@@ -45,12 +46,14 @@ export default function ContactMe() {
                         </a>
                     </Col>
                 </Row>
-                <Row>
-                    <div className="ContactMe-contact">
-                        <FontAwesomeIcon icon={faEnvelope} className="ContactMe-icon"/>{" "}
-                        amandanagao@hotmail.com
-                    </div>
-                </Row>
+                <div className="ContactMe-contact">
+                    <FontAwesomeIcon icon={faEnvelope} className="ContactMe-icon"/>{" "}
+                    amandanagao@hotmail.com
+                </div>
+                <div className="ContactMe-phone">
+                    <FontAwesomeIcon icon={faPhone} className="ContactMe-icon"/>{" "}
+                    +351 939 234 150
+                </div>
                 <div className="ContactMe-location">
                     <FontAwesomeIcon icon={faLocationDot}  className="ContactMe-icon"/>{" "}
                     Funchal, Ilha da Madeira, Portugal

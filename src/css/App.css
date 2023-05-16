@@ -3,6 +3,7 @@
     background: #f5f5f5;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .App .App-content-second-section {
