@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
@@ -48,6 +48,12 @@ export default function Skills() {
                     </Col>
                     <Col className="Skills-title">VS Code</Col>
                     <Col className="Skills-title">APIs</Col>
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faDatabase} title="Database"/> SQL Server
+                    </Col>
+                    <Col className="Skills-title">
+                        <FontAwesomeIcon icon={faDatabase} title="Database"/> MySQL
+                    </Col>
                 </Row>
             </Container>
         </div>
